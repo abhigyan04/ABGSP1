@@ -1,0 +1,66 @@
+# -----------------------------
+# Unity – core caches & temps
+# -----------------------------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]ee/
+[Bb]uild/
+[Bb]uilds/
+Logs/
+Artifacts/
+UserSettings/
+MemoryCaptures/
+UIElementsSchema/
+
+# Unity package cache / DB (never commit)
+Library/PackageCache/
+Library/ArtifactDB
+
+# -----------------------------
+# Platform / build outputs
+# -----------------------------
+iOSBuild/
+AndroidBuild/
+AndroidBuild*/
+AndroidBuilds/
+LetterShiftInitialBuild/
+*.aab
+*.apk
+*.ipa
+
+# -----------------------------
+# IDE / tooling
+# -----------------------------
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.suo
+*.svd
+*.pdb
+
+# -----------------------------
+# OS junk
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Secrets (keep keystores out)
+# -----------------------------
+Keystore/
+*.keystore
+*.jks
+*.keystore.json
+
+# -----------------------------
+# Crash & profiling (optional)
+# -----------------------------
+sysinfo.txt
+*.memsnap
+*.heap
+*.snap

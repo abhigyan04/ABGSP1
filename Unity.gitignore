@@ -1,0 +1,36 @@
+# Unity caches
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Logs/
+UserSettings/
+MemoryCaptures/
+[Bb]ee/
+Artifacts/
+Library/ArtifactDB
+
+# Platform/build outputs you created
+iOSBuild/
+AndroidBuild/
+*.aab
+*.apk
+*.ipa
+
+# Unity packages cache
+Library/PackageCache/
+
+# VS/IDE junk
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+
+# OS junk
+.DS_Store
+Thumbs.db
